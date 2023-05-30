@@ -1,0 +1,57 @@
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 15px;
+
+  &__container {
+    padding: 12px 0px;
+    width: 100%;
+    max-width: 1551px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__address {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__address-text {
+  }
+
+  &__address-link {
+    text-decoration-line: underline;
+    color: #e13b3f;
+  }
+
+  &__call {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__call-number {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__call-button {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #e13b3f;
+    border-radius: 5px;
+    color: #e13b3f;
+    padding: 12px 25px;
+    cursor: pointer;
+  }
+}
